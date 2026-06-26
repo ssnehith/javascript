@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JavaScript Course</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+nav{
+    background:#222;
+    padding:15px;
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    flex-wrap:wrap;
+}
+
+select{
+    padding:10px 15px;
+    border:none;
+    border-radius:5px;
+    font-size:16px;
+    cursor:pointer;
+    min-width:250px;
+}
+
+.content{
+    padding:40px;
+    text-align:center;
+}
+
+h1{
+    margin-bottom:15px;
+}
+
+</style>
+
+</head>
+<body>
+
+<nav>
+
+    <!-- Basic -->
+
+    <select onchange="window.location.href=this.value">
+        <option selected disabled>📘 Basic</option>
+
+        <option value="introduction.html">
+            Introduction to JavaScript & DOM Introduction
+        </option>
+
+        <option value="dom-events.html">
+            DOM Manipulation and Events
+        </option>
+
+        <option value="operators.html">
+            Operators and Conditional Statements
+        </option>
+
+        <option value="loops.html">
+            Loops and Patterns
+        </option>
+
+        <option value="functions-scope.html">
+            Functions and Scope
+        </option>
+
+        <option value="arrays.html">
+            Arrays and Array Methods
+        </option>
+
+        <option value="objects-destructuring.html">
+            Objects and Destructuring
+        </option>
+
+    </select>
+
+    <!-- Medium -->
+
+    <select onchange="window.location.href=this.value">
+        <option selected disabled>📗 Medium</option>
+
+        <option value="advanced-arrays.html">
+            Advanced Array Methods
+        </option>
+
+        <option value="higher-order-functions.html">
+            Higher Order Functions
+        </option>
+
+        <option value="string-regex.html">
+            String Methods and Regex
+        </option>
+
+        <option value="math-date.html">
+            Math and Date Objects
+        </option>
+
+        <option value="form-validation.html">
+            Form Validation
+        </option>
+
+        <option value="timers-storage.html">
+            Timers and Web Storage
+        </option>
+
+        <option value="hoisting-execution-context.html">
+            Hoisting and Execution Context
+        </option>
+
+        <option value="closures.html">
+            Closures
+        </option>
+
+        <option value="callbacks-errors.html">
+            Callbacks and Error Handling
+        </option>
+
+    </select>
+
+    <!-- Advanced -->
+
+    <select onchange="window.location.href=this.value">
+        <option selected disabled>📕 Advanced</option>
+
+        <option value="call-apply-bind.html">
+            Call, Apply, Bind and this Keyword
+        </option>
+
+        <option value="async-javascript.html">
+            Asynchronous JavaScript
+        </option>
+
+        <option value="promises.html">
+            Promises
+        </option>
+
+        <option value="async-await.html">
+            Async and Await
+        </option>
+
+        <option value="api-integration.html">
+            API Integration
+        </option>
+
+        <option value="modules-project-structure.html">
+            JavaScript Modules and Project Structure
+        </option>
+
+        <option value="final-project.html">
+            Final Real-Time Project
+        </option>
+
+    </select>
+
+</nav>
+
+<div class="content">
+    <h1>JavaScript Learning Portal</h1>
+    <p>Select any topic from the dropdown menus above.</p>
+</div>
+
+</body>
+</html>
