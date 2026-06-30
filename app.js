@@ -19,3 +19,11 @@ ChangeText.textContent="JavaScript is the Dynamic Language";
 function changeHeading(){
 ChangeText.style.color="blue"
 }
+
+let bottle="water"
+
+console.log(bottle)
+
+bottle="Milk"
+
+console.log(bottle)
