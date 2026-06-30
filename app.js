@@ -27,3 +27,12 @@ console.log(bottle)
 bottle="Milk"
 
 console.log(bottle)
+
+
+const fruit="apple"
+
+console.log(fruit)
+
+fruit="banana"
+
+console.log(fruit)
