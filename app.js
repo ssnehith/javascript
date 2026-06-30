@@ -36,3 +36,9 @@ console.log(fruit)
 fruit="banana"
 
 console.log(fruit)
+
+var a=10
+
+a=20
+
+console.log(10)
