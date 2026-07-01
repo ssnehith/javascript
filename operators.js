@@ -21,11 +21,26 @@
 // console.log(a==b)
 
 
-let age=18
+// let age=18
 
-if(age<18){
-    console.log("not elligible")
+// if(age<18){
+//     console.log("not elligible")
+// }
+// else{
+//     console.log("eligible")
+// }
+
+let marks=prompt()
+
+if(marks>=90){
+    console.log("A")
+}
+else if(marks>=75){
+    console.log("B")
+}
+else if(marks>=50){
+    console.log("C")
 }
 else{
-    console.log("eligible")
+    console.log("Fail")
 }
