@@ -1,21 +1,31 @@
-let a= 10
-let b= 50
+// let a= 10
+// let b= 50
 
-// let c=a+b
+// // let c=a+b
 
-// let d=a-b
+// // let d=a-b
 
-// let e=a*b
+// // let e=a*b
 
-// let f=a/b
+// // let f=a/b
 
-// console.log(c)
-// console.log(d)
-// console.log(e)
-// console.log(f)
+// // console.log(c)
+// // console.log(d)
+// // console.log(e)
+// // console.log(f)
 
-console.log(a>b)
+// console.log(a>b)
 
-console.log(a<b)
+// console.log(a<b)
 
-console.log(a==b)
+// console.log(a==b)
+
+
+let age=18
+
+if(age<18){
+    console.log("not elligible")
+}
+else{
+    console.log("eligible")
+}
