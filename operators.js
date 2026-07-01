@@ -30,17 +30,33 @@
 //     console.log("eligible")
 // }
 
-let marks=prompt()
+// let marks=prompt()
 
-if(marks>=90){
-    console.log("A")
-}
-else if(marks>=75){
-    console.log("B")
-}
-else if(marks>=50){
-    console.log("C")
-}
-else{
-    console.log("Fail")
+// if(marks>=90){
+//     console.log("A")
+// }
+// else if(marks>=75){
+//     console.log("B")
+// }
+// else if(marks>=50){
+//     console.log("C")
+// }
+// else{
+//     console.log("Fail")
+// }
+
+let day=3;
+switch(day){
+    case 1:
+        console.log("monday")
+        break;
+    case 2:
+        console.log("tuesday")
+        break;
+    case 3:
+        console.log("wednesday")
+        break;
+    default:
+        console.log("Invalid")
+           
 }
