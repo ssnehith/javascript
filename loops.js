@@ -25,3 +25,19 @@ while (count >= 1) {
     printMessage(`Countdown: ${count}`);
     count--;
 }
+
+printMessage("\nMultiplication table of 2:");
+
+let num = 2;
+
+for (let i = 1; i <= 10; i++) {
+    printMessage(`${num} x ${i} = ${num * i}`);
+}
+
+printMessage("\nFrontend skills list:");
+
+const skills = ["HTML", "CSS", "JavaScript", "React"];
+
+for (let i = 0; i < skills.length; i++) {
+    printMessage(`Skill ${i + 1}: ${skills[i]}`);
+}
