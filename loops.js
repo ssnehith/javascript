@@ -57,6 +57,37 @@ for (let i = 0; i < studySessions.length; i++) {
     }
 }
 
+let averageDuration = totalDuration / studySessions.length;
+
 printReport(`Total Study Time: ${totalDuration} minutes`);
-printReport(`Completed Sessions: ${completedCount}`);
+printReport(`Average Session Time: ${averageDuration} minutes`);
+printReport(`Completed Sessions: ${completedCount}/${studySessions.length}`);
 printReport(`Longest Session: Day ${longestSession.day} - ${longestSession.topic}`);
+
+printReport("\nDetailed Session List:");
+printReport("--------------------------------");
+
+for (let i = 0; i < studySessions.length; i++) {
+    let session = studySessions[i];
+
+    printReport(
+        `Day ${session.day}: ${session.topic} - ${session.duration} minutes`
+    );
+}
+
+printReport("\nCompletion Status:");
+printReport("--------------------------------");
+
+let index = 0;
+
+while (index < studySessions.length) {
+    let session = studySessions[index];
+
+    if (session.completed) {
+        printReport(`Day ${session.day}: Completed`);
+    } else {
+        printReport(`Day ${session.day}: Pending`);
+    }
+
+    index++;
+}
