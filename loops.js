@@ -1,43 +1,42 @@
 const output = document.getElementById("output");
 
-function printMessage(message) {
+function printReport(message) {
     output.textContent += message + "\n";
     console.log(message);
 }
 
-printMessage("Basic number sequence:");
+const studySessions = [
+    {
+        day: 16,
+        topic: "JavaScript Variables",
+        duration: 45,
+        completed: true
+    },
+    {
+        day: 17,
+        topic: "Data Types",
+        duration: 50,
+        completed: true
+    },
+    {
+        day: 18,
+        topic: "Operators and Conditions",
+        duration: 60,
+        completed: true
+    },
+    {
+        day: 19,
+        topic: "Arrays",
+        duration: 55,
+        completed: true
+    },
+    {
+        day: 20,
+        topic: "Loops Practice",
+        duration: 70,
+        completed: true
+    }
+];
 
-for (let i = 1; i <= 5; i++) {
-    printMessage(`Number: ${i}`);
-}
-
-printMessage("\nEven numbers from 2 to 20:");
-
-for (let i = 2; i <= 20; i += 2) {
-    printMessage(`Even number: ${i}`);
-}
-
-printMessage("\nWhile loop countdown:");
-
-let count = 5;
-
-while (count >= 1) {
-    printMessage(`Countdown: ${count}`);
-    count--;
-}
-
-printMessage("\nMultiplication table of 2:");
-
-let num = 2;
-
-for (let i = 1; i <= 10; i++) {
-    printMessage(`${num} x ${i} = ${num * i}`);
-}
-
-printMessage("\nFrontend skills list:");
-
-const skills = ["HTML", "CSS", "JavaScript", "React"];
-
-for (let i = 0; i < skills.length; i++) {
-    printMessage(`Skill ${i + 1}: ${skills[i]}`);
-}
+printReport("JavaScript Study Session Report");
+printReport("--------------------------------");
