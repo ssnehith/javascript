@@ -38,5 +38,25 @@ const studySessions = [
     }
 ];
 
+let totalDuration = 0;
+let completedCount = 0;
+let longestSession = studySessions[0];
+
 printReport("JavaScript Study Session Report");
 printReport("--------------------------------");
+
+for (let i = 0; i < studySessions.length; i++) {
+    totalDuration += studySessions[i].duration;
+
+    if (studySessions[i].completed === true) {
+        completedCount++;
+    }
+
+    if (studySessions[i].duration > longestSession.duration) {
+        longestSession = studySessions[i];
+    }
+}
+
+printReport(`Total Study Time: ${totalDuration} minutes`);
+printReport(`Completed Sessions: ${completedCount}`);
+printReport(`Longest Session: Day ${longestSession.day} - ${longestSession.topic}`);
