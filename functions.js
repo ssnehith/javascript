@@ -34,3 +34,19 @@
 const greet=()=>{
     console.log("Hello");
 }
+
+// let a=10;
+function outer(){
+    let a=10;
+
+    console.log(a);
+    
+    function inner(){
+        console.log("inner");
+        console.log(a);
+    }
+    return inner;
+}
+
+let result=outer();
+result();
