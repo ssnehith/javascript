@@ -1,7 +1,12 @@
-let button=document.getElementById("btn");
+// let button=document.getElementById("btn");
 
-let greet=function(){
-    console.log("Good Morning");
+// let greet=function(){
+//     console.log("Good Morning");
+// }
+
+// button.addEventListener("click", greet());
+
+function greet(name){
+    console.log(name, "Good Morning");
 }
-
-button.addEventListener("click", greet());
+    greet("Hari");
