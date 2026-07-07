@@ -6,7 +6,14 @@
 
 // button.addEventListener("click", greet());
 
-function greet(name){
-    console.log(name, "Good Morning");
+// function greet(name,food){
+//     console.log(name, "Good Evening", "had your", food);
+// }
+//     greet("Hari","Dinner");
+
+function add(a,b){
+    console.log(a+b);
 }
-    greet("Hari");
+
+    add(2,3);
+    add(4,5);
