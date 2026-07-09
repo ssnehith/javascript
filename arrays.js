@@ -19,3 +19,9 @@ console.log(fruits);
 fruits.unshift("kiwi")
 
 console.log(fruits);
+
+fruits.splice(2, 0, "pineapple");
+console.log("After splice insert:", fruits);
+
+const selectedFruits = fruits.slice(1, 4);
+console.log("Selected fruits using slice:", selectedFruits);
