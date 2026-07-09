@@ -25,3 +25,12 @@ console.log("After splice insert:", fruits);
 
 const selectedFruits = fruits.slice(1, 4);
 console.log("Selected fruits using slice:", selectedFruits);
+
+
+for (let i = 0; i < fruits.length; i++) {
+    console.log(`Fruit at index ${i}:`, fruits[i]);
+}
+
+fruits.forEach((fruit, index) => {
+    console.log(`forEach item ${index}:`, fruit);
+});
