@@ -1,3 +1,5 @@
 function checkEligibility() {
-    console.log("Eligibility button clicked");
+    const age = Number(document.getElementById("age").value);
+
+    console.log(age);
 }
