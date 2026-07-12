@@ -15,3 +15,13 @@ const randomNumber =
     Math.floor(Math.random() * (maxNumber - minNumber + 1)) + minNumber;
 
 result.textContent = `Generated number: ${randomNumber}`;
+
+if (minNumberInput.value === "" || maxNumberInput.value === "") {
+    result.textContent = "Please enter both numbers.";
+    return;
+}
+
+if (minNumber >= maxNumber) {
+    result.textContent = "Maximum must be greater than minimum.";
+    return;
+}
