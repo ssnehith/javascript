@@ -10,3 +10,8 @@ generateButton.addEventListener("click", function () {
     console.log("Minimum:", minNumber);
     console.log("Maximum:", maxNumber);
 });
+
+const randomNumber =
+    Math.floor(Math.random() * (maxNumber - minNumber + 1)) + minNumber;
+
+result.textContent = `Generated number: ${randomNumber}`;
