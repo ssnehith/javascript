@@ -12,6 +12,7 @@ const products=[
 const productNames=products.map(product=>product.name);
 console.log(productNames)
 
+//filter and sort
 const marks=[30,45,90,80,20]
 
 const passed=marks.filter(mark=>mark>=45);
@@ -19,3 +20,7 @@ console.log(passed)
 const passedSort=passed.sort((a,b)=>a-b)
 console.log(passedSort)
 
+
+//reduce
+const total=prices.reduce((sum,price)=>sum+price)
+console.log(total)
