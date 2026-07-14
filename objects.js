@@ -17,3 +17,11 @@ console.log(objects.name)
 console.log(objects.city)
 
 console.log(objects["age"])
+
+//Modifying objects
+objects.name="Rahul"
+objects.gender="Male"
+console.log("After modifying",objects)
+delete objects.gender
+console.log("After deleting",objects)
+
