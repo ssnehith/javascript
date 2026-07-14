@@ -25,3 +25,14 @@ console.log("After modifying",objects)
 delete objects.gender
 console.log("After deleting",objects)
 
+//Nested objects
+let students={
+    name:"Ramu",
+    address:{
+        city:"Hyderabad",
+        state:"Telangana"
+    }
+}
+
+console.log(students)
+console.log(students.address.city)
