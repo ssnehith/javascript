@@ -70,3 +70,13 @@ let updatedstudent={
     city:"Hyderabad"
 }
 console.log(updatedstudent)
+
+//Rest operator
+let student5={
+    name:"rax",
+    age:25,
+    city:"Hyderabad"
+}
+let{name2,...others}=student5
+console.log("Rest Operator")
+console.log(student5)
