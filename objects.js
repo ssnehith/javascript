@@ -11,3 +11,9 @@ let objects={
 };
 
 console.log(objects)
+
+//accessing by dot and bracket
+console.log(objects.name)
+console.log(objects.city)
+
+console.log(objects["age"])
