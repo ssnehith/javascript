@@ -45,3 +45,17 @@ let students1={
     }
 }
 students1.greet()
+
+//Destructing
+let student2={
+    name1:'Ram',
+    age1:21
+}
+console.log("Before Destructing")
+console.log(student2.name1)
+console.log(student2.age1)
+
+let{name1,age1}=student2
+console.log("After Destructing")
+console.log(name1)
+console.log(age1)
