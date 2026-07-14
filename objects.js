@@ -59,3 +59,14 @@ let{name1,age1}=student2
 console.log("After Destructing")
 console.log(name1)
 console.log(age1)
+
+//spread operator
+let student4={
+    name:"roll",
+    age:25
+}
+let updatedstudent={
+    ...student4,
+    city:"Hyderabad"
+}
+console.log(updatedstudent)
