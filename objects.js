@@ -36,3 +36,12 @@ let students={
 
 console.log(students)
 console.log(students.address.city)
+
+//objects methods
+let students1={
+    name:"Roxy",
+    greet:function(){
+        console.log(students.name)
+    }
+}
+students1.greet()
