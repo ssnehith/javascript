@@ -19,3 +19,8 @@ console.log(skills.split(","))
 let text=" I Love You "
 console.log(text.replace("You","Vamika"))
 console.log(text.trim())
+
+//regex
+let onlynums=/^[0-9]+$/
+let correctnums=onlynums.test("12345")
+console.log(correctnums)
