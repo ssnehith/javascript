@@ -10,4 +10,8 @@ console.log(courses.length)
 let email="student@gmail.com"
 console.log(email.includes("@"))
 
+//split
+let skills="HTML,CSS,Java Script"
+
+console.log(skills.split(","))
 
