@@ -16,3 +16,4 @@ function validate() {
 }
 
 btn.addEventListener("click",validate);
+

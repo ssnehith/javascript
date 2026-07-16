@@ -17,7 +17,7 @@ console.log(skills.split(","))
 
 //replace and trim
 let text=" I Love You "
-console.log(text.replace("You","Vamika"))
+console.log(text.replace("You","Javascript"))
 console.log(text.trim())
 
 //regex
