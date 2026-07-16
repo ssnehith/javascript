@@ -20,8 +20,11 @@ const participants = [
 ];
 
 const randomIndex = Math.floor(Math.random() * participants.length);
+console.log("Lottery winner:", participants[randomIndex]);
 
-const winner = participants[randomIndex];
 
-console.log("Lottery winner:", winner);
+//Floor-down,ceil-up,round-nearest
 
+console.log(Math.floor(10.2));
+console.log(Math.ceil(10.2));
+console.log(Math.round(10.2));
