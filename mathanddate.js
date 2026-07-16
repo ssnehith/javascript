@@ -28,3 +28,16 @@ console.log("Lottery winner:", participants[randomIndex]);
 console.log(Math.floor(10.2));
 console.log(Math.ceil(10.2));
 console.log(Math.round(10.2));
+
+//Date Object
+console.log(Date());
+let today=new Date()
+console.log(today.getDate());
+console.log(today.getDay());
+console.log(today.getFullYear());
+console.log(today.getMonth());
+console.log(today.getHours());
+
+
+
+
