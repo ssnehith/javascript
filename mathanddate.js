@@ -38,6 +38,6 @@ console.log(today.getFullYear());
 console.log(today.getMonth());
 console.log(today.getHours());
 
-
-
+let date=today.getDate()+"/"+today.getMonth()+"/"+today.getFullYear();
+console.log(date);
 
